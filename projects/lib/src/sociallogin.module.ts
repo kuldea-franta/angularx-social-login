@@ -14,9 +14,6 @@ import { SocialAuthService, SocialAuthServiceConfig } from './socialauth.service
 @NgModule({
   imports: [
     CommonModule
-  ],
-  providers: [
-    SocialAuthService
   ]
 })
 export class SocialLoginModule {
